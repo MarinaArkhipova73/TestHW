@@ -1,3 +1,9 @@
+package itis;
+
+import itis.helper.BoardHelper;
+import itis.helper.ColumnHelper;
+import itis.helper.LoginHelper;
+import itis.helper.NavigationHelper;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -6,12 +12,16 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
+import static org.junit.Assert.fail;
+
 public class ApplicationManager {
 
     private WebDriver driver;
     private Map<String, Object> vars;
     JavascriptExecutor js;
     private String url;
+    private StringBuffer verificationErrors = new StringBuffer();
+
 
     private BoardHelper boardHelper;
     private ColumnHelper columnHelper;
@@ -57,9 +67,13 @@ public class ApplicationManager {
         return boardHelper;
     }
 
-    public void Stop()
+    public void stop()
     {
         driver.quit();
+        String verificationErrorString = verificationErrors.toString();
+        if (!"".equals(verificationErrorString)) {
+            fail(verificationErrorString);
+        }
     }
 
         public void tearDown() {
