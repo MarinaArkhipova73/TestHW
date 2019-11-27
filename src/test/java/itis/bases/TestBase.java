@@ -9,13 +9,15 @@ public class TestBase {
     private static ApplicationManager appManager;
 
     @Before
-    public void setUp(){setApp(new ApplicationManager());
+    public void setUp(){
+//        setApp(new ApplicationManager());
+        appManager = ApplicationManager.GetInstance();
     }
 
-    @After
-    public void tearDown() throws Exception {
-        appManager.stop();
-    }
+//    @After
+//    public void tearDown() throws Exception {
+//        appManager.stop();
+//    }
 
     protected void setApp(ApplicationManager appManager) {
         this.appManager = appManager;

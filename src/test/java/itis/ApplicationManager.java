@@ -28,7 +28,9 @@ public class ApplicationManager {
     private LoginHelper loginHelper;
     private NavigationHelper navigationHelper;
 
-    public ApplicationManager(){
+    private static ThreadLocal<ApplicationManager> app = new ThreadLocal<ApplicationManager>();
+
+    private ApplicationManager(){
         System.setProperty("webdriver.chrome.driver", "D:\\Загрузки\\chromedriver_win32\\chromedriver.exe");
         driver = new ChromeDriver();
         js = (JavascriptExecutor) driver;
@@ -41,6 +43,16 @@ public class ApplicationManager {
         loginHelper = new LoginHelper(this);
         navigationHelper = new NavigationHelper(this);
         boardHelper = new BoardHelper(this);
+    }
+
+    public static ApplicationManager GetInstance() {
+        if (app != null)
+        {
+            ApplicationManager newInstance = new ApplicationManager();
+            newInstance.navigationHelper.getLoginPage();
+            app.set(newInstance);
+        }
+        return app.get();
     }
 
     public WebDriver getDriver() {
