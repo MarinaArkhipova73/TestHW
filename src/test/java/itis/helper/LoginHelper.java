@@ -28,7 +28,9 @@ public class LoginHelper extends HelperBase {
 
     public void checkUsername() {
         getAppManager().getDriver().findElement(By.xpath("//span[@class='_24AWINHReYjNBf'][contains(.,'M')]")).click();
-        USERNAME = getAppManager().getDriver().findElement(By.xpath("//span[contains(.,'MarinArhipova (marinarhipova)')]")).getText();
+//        USERNAME = getAppManager().getDriver().findElement(By.xpath("//span[contains(.,'MarinArhipova (marinarhipova)')]")).getText();
+        USERNAME = getAppManager().getDriver().findElement(By.className("_1N7TDEoHnIqiCA")).getText();
+
     }
 
 }

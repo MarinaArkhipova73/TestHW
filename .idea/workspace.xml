@@ -3,11 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="a493624f-6721-49ee-b749-1673eef873ca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TrelloTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrelloTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/itis/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/itis/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TrelloTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/itis/TrelloTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/itis/bases/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/itis/bases/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/itis/helper/BoardHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/itis/helper/BoardHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/itis/helper/ColumnHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/itis/helper/ColumnHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/itis/helper/LoginHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/itis/helper/LoginHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SimpleAuth_1_Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SimpleAuth_1_Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TrelloTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/itis/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/itis/ApplicationManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/itis/bases/HelperBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/itis/bases/HelperBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/itis/bases/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/itis/bases/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/itis/entities/AccountData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/itis/entities/AccountData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/itis/entities/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/itis/entities/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/itis/entities/Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/itis/entities/Column.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/itis/helper/BoardHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/itis/helper/BoardHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/itis/helper/ColumnHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/itis/helper/ColumnHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/itis/helper/LoginHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/itis/helper/LoginHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/itis/helper/NavigationHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/itis/helper/NavigationHelper.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,19 +35,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/itis/helper/NavigationHelper.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/itis/entities/Column.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TrelloTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="48" column="61" selection-start-line="48" selection-start-column="61" selection-end-line="48" selection-end-column="61" />
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,10 +47,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/itis/entities/AccountData.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/itis/entities/Header.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <state>
+              <caret selection-end-line="11" />
+              <folding>
+                <element signature="e#0#227#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/itis/helper/BoardHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,33 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/itis/helper/LoginHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/itis/ApplicationManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#863#883#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/itis/helper/BoardHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="18" column="60" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="60" />
+            <state relative-caret-position="119">
+              <caret line="10" column="91" selection-start-line="10" selection-start-column="82" selection-end-line="10" selection-end-column="91" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/itis/entities/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="136">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,10 +95,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/itis/entities/Column.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/itis/DataGen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="102">
+              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,13 +107,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/itis/helper/ColumnHelper.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="25" column="99" selection-start-line="25" selection-start-column="99" selection-end-line="25" selection-end-column="99" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="935">
+              <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -131,11 +118,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/itis/bases/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/itis/bases/BoardTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/itis/bases/LoginTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -155,15 +160,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/UntitledTestCase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/LoginTest2.java" />
-        <option value="$PROJECT_DIR$/src/test/java/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/UntitledTest3.java" />
         <option value="$PROJECT_DIR$/src/test/java/LoginAddCartDeleteCartTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/LogAddDelTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/LoggTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/SimpleAuth_1_Task.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/AccountData.java" />
         <option value="$PROJECT_DIR$/src/test/java/Column.java" />
         <option value="$PROJECT_DIR$/src/test/java/AddCardTest.java" />
@@ -194,13 +195,22 @@
         <option value="$PROJECT_DIR$/src/test/java/itis/bases/HelperBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/LogAddDelTest1.java" />
         <option value="$PROJECT_DIR$/src/test/java/Test.java" />
-        <option value="$PROJECT_DIR$/src/test/java/itis/helper/LoginHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/itis/helper/NavigationHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/itis/ApplicationManager.java" />
-        <option value="$PROJECT_DIR$/src/test/java/itis/bases/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/itis/helper/BoardHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TrelloTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/itis/helper/ColumnHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/itis/bases/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/json/board.txt" />
+        <option value="$PROJECT_DIR$/src/test/resources/test.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/itis/ApplicationManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TrelloTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/itis/bases/LoginTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/itis/bases/BoardTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/itis/TestSuite.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/itis/DataGen.java" />
+        <option value="$PROJECT_DIR$/src/test/java/itis/entities/Header.java" />
+        <option value="$PROJECT_DIR$/src/test/java/itis/helper/LoginHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/itis/TrelloTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/itis/helper/BoardHelper.java" />
       </list>
     </option>
   </component>
@@ -232,7 +242,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -299,11 +308,23 @@
               <item name="itis" type="462c0819:PsiDirectoryNode" />
               <item name="helper" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="itis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -311,9 +332,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JavaLab_3/3 WebSocket/front" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -336,22 +360,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TrelloTest.deleteBoardTest">
-    <configuration name="TrelloTest.addBoardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TrelloTest.addBoardTest">
+    <configuration name="DataGen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="itis.DataGen" />
       <module name="Test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TrelloTest" />
-      <option name="METHOD_NAME" value="addBoardTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="itis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrelloTest.addColumnTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TrelloTest.addBoardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TrelloTest" />
-      <option name="METHOD_NAME" value="addColumnTest" />
+      <option name="PACKAGE_NAME" value="itis" />
+      <option name="MAIN_CLASS_NAME" value="itis.TrelloTest" />
+      <option name="METHOD_NAME" value="addBoardTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -359,29 +386,41 @@
     </configuration>
     <configuration name="TrelloTest.deleteBoardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TrelloTest" />
+      <option name="PACKAGE_NAME" value="itis" />
+      <option name="MAIN_CLASS_NAME" value="itis.TrelloTest" />
       <option name="METHOD_NAME" value="deleteBoardTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrelloTest.deleteColumnTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TrelloTest.doLoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TrelloTest" />
-      <option name="METHOD_NAME" value="deleteColumnTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="itis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="itis" />
+      <option name="MAIN_CLASS_NAME" value="itis.TrelloTest" />
+      <option name="METHOD_NAME" value="doLoginTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrelloTest.getBoardPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TrelloTest.getBoardsPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TrelloTest" />
-      <option name="METHOD_NAME" value="getBoardPageTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="itis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="itis" />
+      <option name="MAIN_CLASS_NAME" value="itis.TrelloTest" />
+      <option name="METHOD_NAME" value="getBoardsPageTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -389,11 +428,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TrelloTest.deleteBoardTest" />
-        <item itemvalue="JUnit.TrelloTest.deleteColumnTest" />
-        <item itemvalue="JUnit.TrelloTest.addColumnTest" />
         <item itemvalue="JUnit.TrelloTest.addBoardTest" />
-        <item itemvalue="JUnit.TrelloTest.getBoardPageTest" />
+        <item itemvalue="JUnit.TrelloTest.getBoardsPageTest" />
+        <item itemvalue="JUnit.TrelloTest.doLoginTest" />
+        <item itemvalue="JUnit.TrelloTest.deleteBoardTest" />
+        <item itemvalue="Application.DataGen" />
       </list>
     </recent_temporary>
   </component>
@@ -415,48 +454,52 @@
       <workItem from="1573630662389" duration="7545000" />
       <workItem from="1573645470071" duration="12969000" />
       <workItem from="1574239209817" duration="6415000" />
+      <workItem from="1574845184100" duration="4646000" />
+      <workItem from="1575228566653" duration="10278000" />
+      <workItem from="1575450365794" duration="218000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TrelloTest_deleteBoardTest - 2019.11.20 at 12h 41m 46s.xml">
-      <configuration name="TrelloTest.deleteBoardTest" configurationId="JUnit" />
+    <history-entry file="TrelloTest_addBoardTest - 2019.12.02 at 01h 46m 06s.xml">
+      <configuration name="TrelloTest.addBoardTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TrelloTest_deleteBoardTest - 2019.11.20 at 12h 43m 42s.xml">
-      <configuration name="TrelloTest.deleteBoardTest" configurationId="JUnit" />
+    <history-entry file="TrelloTest_addBoardTest - 2019.12.02 at 01h 50m 54s.xml">
+      <configuration name="TrelloTest.addBoardTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TrelloTest_deleteBoardTest - 2019.11.20 at 12h 45m 23s.xml">
-      <configuration name="TrelloTest.deleteBoardTest" configurationId="JUnit" />
+    <history-entry file="TrelloTest_addBoardTest - 2019.12.02 at 01h 53m 03s.xml">
+      <configuration name="TrelloTest.addBoardTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TrelloTest_deleteBoardTest - 2019.11.20 at 12h 49m 39s.xml">
-      <configuration name="TrelloTest.deleteBoardTest" configurationId="JUnit" />
+    <history-entry file="TrelloTest_addBoardTest - 2019.12.02 at 02h 00m 19s.xml">
+      <configuration name="TrelloTest.addBoardTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TrelloTest_deleteBoardTest - 2019.11.20 at 12h 54m 42s.xml">
-      <configuration name="TrelloTest.deleteBoardTest" configurationId="JUnit" />
+    <history-entry file="TrelloTest_addBoardTest - 2019.12.02 at 02h 02m 59s.xml">
+      <configuration name="TrelloTest.addBoardTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TrelloTest_deleteBoardTest - 2019.11.20 at 13h 04m 56s.xml">
-      <configuration name="TrelloTest.deleteBoardTest" configurationId="JUnit" />
+    <history-entry file="TrelloTest_addBoardTest - 2019.12.02 at 02h 07m 43s.xml">
+      <configuration name="TrelloTest.addBoardTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TrelloTest_deleteBoardTest - 2019.11.20 at 13h 08m 09s.xml">
-      <configuration name="TrelloTest.deleteBoardTest" configurationId="JUnit" />
+    <history-entry file="TrelloTest_addBoardTest - 2019.12.02 at 02h 09m 52s.xml">
+      <configuration name="TrelloTest.addBoardTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TrelloTest_deleteBoardTest - 2019.11.20 at 13h 14m 13s.xml">
-      <configuration name="TrelloTest.deleteBoardTest" configurationId="JUnit" />
+    <history-entry file="TrelloTest_addBoardTest - 2019.12.02 at 02h 13m 52s.xml">
+      <configuration name="TrelloTest.addBoardTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TrelloTest_deleteBoardTest - 2019.11.20 at 13h 16m 38s.xml">
-      <configuration name="TrelloTest.deleteBoardTest" configurationId="JUnit" />
+    <history-entry file="TrelloTest_addBoardTest - 2019.12.02 at 02h 16m 33s.xml">
+      <configuration name="TrelloTest.addBoardTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TrelloTest_deleteBoardTest - 2019.11.20 at 13h 21m 05s.xml">
-      <configuration name="TrelloTest.deleteBoardTest" configurationId="JUnit" />
+    <history-entry file="TrelloTest_addBoardTest - 2019.12.02 at 02h 21m 20s.xml">
+      <configuration name="TrelloTest.addBoardTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47538000" />
+    <option name="totallyTimeSpent" value="62684000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2147651" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22416107" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -508,21 +551,75 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/LoggTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/helpers.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/d.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/AddCardTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/itis/entities/AccountData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        <state relative-caret-position="119">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AddCardTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/itis/helper/ColumnHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="25" column="99" selection-start-line="25" selection-start-column="99" selection-end-line="25" selection-end-column="99" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SimpleAuth_1_Task.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
+        <state relative-caret-position="488">
           <caret line="51" column="61" selection-start-line="51" selection-start-column="52" selection-end-line="51" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/test.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="45" selection-start-line="2" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/tngtech/java/junit-dataprovider/1.10.0/junit-dataprovider-1.10.0.jar!/com/tngtech/java/junit/dataprovider/internal/TestValidator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/itis/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="30" column="42" selection-start-line="30" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/itis/TestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/json/board.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -533,103 +630,189 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/itis/bases/TestBase.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/itis/TrelloTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="1020">
+          <caret line="72" column="64" selection-start-line="72" selection-start-column="64" selection-end-line="72" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/itis/entities/Column.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/itis/entities/AccountData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/itis/ApplicationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#863#883#0" expanded="true" />
+            <marker date="1575242344666" expanded="true" signature="2147:2280" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/itis/helper/NavigationHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="28" />
+        <state relative-caret-position="221">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="31" />
+          <folding>
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/itis/entities/Board.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/itis/entities/Column.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/itis/helper/BoardHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/itis/entities/Header.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="18" column="60" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="60" />
+        <state>
+          <caret selection-end-line="11" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#227#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/itis/helper/LoginHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        <state relative-caret-position="119">
+          <caret line="10" column="91" selection-start-line="10" selection-start-column="82" selection-end-line="10" selection-end-column="91" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/itis/helper/ColumnHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/itis/entities/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="25" column="99" selection-start-line="25" selection-start-column="99" selection-end-line="25" selection-end-column="99" />
+        <state relative-caret-position="136">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TrelloTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/itis/DataGen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="48" column="61" selection-start-line="48" selection-start-column="61" selection-end-line="48" selection-end-column="61" />
+        <state relative-caret-position="102">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/itis/helper/BoardHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/itis/bases/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/itis/bases/BoardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/itis/bases/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

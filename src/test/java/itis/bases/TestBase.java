@@ -8,6 +8,7 @@ public class TestBase {
 
     private static ApplicationManager appManager;
 
+
     @Before
     public void setUp(){
 //        setApp(new ApplicationManager());

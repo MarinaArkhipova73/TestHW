@@ -2,7 +2,6 @@ package itis.helper;
 
 import itis.ApplicationManager;
 import itis.bases.HelperBase;
-import itis.entities.Board;
 import org.openqa.selenium.By;
 
 public class BoardHelper extends HelperBase {
@@ -20,6 +19,23 @@ public class BoardHelper extends HelperBase {
         Thread.sleep(1000);
         getAppManager().getDriver().findElement(By.xpath("(//span[contains(.,'Создать доску')])[2]")).click();
         Thread.sleep(1000);
+        isAdded = true;
+    }
+
+    public void addBoard(String title) throws InterruptedException {
+//        getAppManager().getDriver().findElement(By.className("_2ZNy4w8Nfa58d1")).click();
+//        Thread.sleep(1500);
+//        getAppManager().getDriver().findElement(By.xpath("//button[contains(@data-test-id,'header-create-board-button')]")).click();
+//        Thread.sleep(1000);
+
+        getAppManager().getDriver().findElement(By.xpath("//span[contains(.,'Создать доску')]")).click();
+        Thread.sleep(1000);
+        getAppManager().getDriver().findElement(By.className("subtle-input")).sendKeys(title);
+        Thread.sleep(1000);
+        getAppManager().getDriver().findElement(By.xpath("(//span[contains(.,'Создать доску')])[2]")).click();
+        Thread.sleep(5000);
+        getAppManager().getDriver().findElement(By.xpath("//span[contains(@class,'_1q-xxtNvcdFBca')]")).click();
+        Thread.sleep(5000);
         isAdded = true;
     }
 
