@@ -21,7 +21,7 @@ public class DataGen {
 
         ObjectMapper mapper = new ObjectMapper();
         ArrayList<Board> boards = new ArrayList<>();
-        for (int i = 0; i <= 5; i++){
+        for (int i = 0; i <= 1; i++){
             String randomText = fakeValuesService.bothify("?????????");
             boards.add(new Board(randomText));
         }

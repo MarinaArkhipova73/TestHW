@@ -22,20 +22,19 @@ public class ApplicationManager {
     private String url;
     private StringBuffer verificationErrors = new StringBuffer();
 
-
     private BoardHelper boardHelper;
     private ColumnHelper columnHelper;
     private LoginHelper loginHelper;
     private NavigationHelper navigationHelper;
 
-    private static ThreadLocal<ApplicationManager> app = new ThreadLocal<ApplicationManager>();
+//    private static ThreadLocal<ApplicationManager> app = new ThreadLocal<ApplicationManager>();
 
-    private ApplicationManager(){
+    public ApplicationManager(){
         System.setProperty("webdriver.chrome.driver", "D:\\Загрузки\\chromedriver_win32\\chromedriver.exe");
         driver = new ChromeDriver();
         js = (JavascriptExecutor) driver;
         vars = new HashMap<String, Object>();
-        url="https://trello.com/";
+//        url="https://trello.com/";
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(120, TimeUnit.SECONDS);
         driver.manage().timeouts().setScriptTimeout(30, TimeUnit.SECONDS);
@@ -45,15 +44,15 @@ public class ApplicationManager {
         boardHelper = new BoardHelper(this);
     }
 
-    public static ApplicationManager GetInstance() {
-        if (app != null)
-        {
-            ApplicationManager newInstance = new ApplicationManager();
-            newInstance.navigationHelper.getLoginPage();
-            app.set(newInstance);
-        }
-        return app.get();
-    }
+//    public static ApplicationManager GetInstance() {
+//        if (app != null)
+//        {
+//            ApplicationManager newInstance = new ApplicationManager();
+//            newInstance.navigationHelper.getLoginPage();
+//            app.set(newInstance);
+//        }
+//        return app.get();
+//    }
 
     public WebDriver getDriver() {
         return driver;

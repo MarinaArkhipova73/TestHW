@@ -2,23 +2,24 @@ package itis.helper;
 
 import itis.ApplicationManager;
 import itis.bases.HelperBase;
+import itis.util.Settings;
 import org.openqa.selenium.By;
 
 public class NavigationHelper extends HelperBase {
 
-    public static String boardUrl;
-    public static String baseUrl;
+    public static String boardUrl = "https://trello.com/marinarhipova/boards";
+    public static String baseUrl = "https://trello.com/home";
 
     public NavigationHelper(ApplicationManager appManager) {
         super(appManager);
     }
 
     public void getLoginPage() {
-        getAppManager().getDriver().get("https://trello.com/home");
+        getAppManager().getDriver().get(baseUrl);
     }
 
     public void getBoardsPage() {
-        getAppManager().getDriver().get("https://trello.com/marinarhipova/boards");
+        getAppManager().getDriver().get(boardUrl);
     }
 
 //    public void getBoardPage() {

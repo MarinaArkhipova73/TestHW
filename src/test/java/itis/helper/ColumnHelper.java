@@ -14,6 +14,8 @@ public class ColumnHelper extends HelperBase {
     }
 
     public void addColumn() throws InterruptedException {
+        getAppManager().getDriver().findElement(By.xpath("//div[@class='board-tile-details is-badged'][contains(.,'1')]")).click();
+        getAppManager().getDriver().findElement(By.xpath("//span[@class='placeholder'][contains(.,'Добавить список')]")).click();
 //        getAppManager().getDriver().findElement(By.xpath("//span[@class='placeholder'][contains(.,'Добавьте еще одну колонку')]")).click();
         getAppManager().getDriver().findElement(By.name("name")).sendKeys("Yessss");
         getAppManager().getDriver().findElement(By.cssSelector(".primary")).click();
